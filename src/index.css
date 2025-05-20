@@ -1,0 +1,7 @@
+@import "@radix-ui/themes/styles.css";
+
+/* Custom styles */
+.white-placeholder::placeholder {
+  color: white;
+  opacity: 0.7;
+}
