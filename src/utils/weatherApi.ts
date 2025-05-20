@@ -1,6 +1,5 @@
 // OpenWeather API configuration
-// Get your API key from https://openweathermap.org/api
-const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
+const API_KEY = import.meta.env.VITE_WEATHER_API_TOKEN;
 const WEATHER_BASE_URL = "https://api.openweathermap.org/data/2.5";
 const ONECALL_BASE_URL = "https://api.openweathermap.org/data/3.0/onecall";
 const GEO_BASE_URL = "https://api.openweathermap.org/geo/1.0";
